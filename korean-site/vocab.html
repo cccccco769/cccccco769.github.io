@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>단어장 - 한국어 학습</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { padding: 20px; background: #f7f9fc; }
+        nav { 
+            background: linear-gradient(90deg, #4facfe, #00f2fe); 
+            padding: 15px; border-radius: 10px; margin-bottom: 30px; 
+        }
+        nav a { 
+            margin: 0 12px; text-decoration: none; 
+            color: white; font-size: 16px; font-weight: 500;
+        }
+        .nav-current { 
+            font-weight: bold; 
+            border-bottom: 3px solid #fff; 
+            padding-bottom: 5px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #dc2626;
+            margin-bottom: 15px;
+        }
+        li {
+            font-size: 16px;
+            margin: 8px 0;
+            color: #111827;
+        }
+        .emoji { font-size: 20px; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">홈</a>
+        <a href="vocab.html" class="nav-current">단어</a>
+        <a href="resources.html">학습자료</a>
+        <a href="stats.html">학습통계</a>
+    </nav>
+
+    <div class="card">
+        <h1><span class="emoji">📖</span> 기본 한국어 단어</h1>
+        <ul>
+            <li>안녕하세요 - Hello</li>
+            <li>고마워요 / 감사합니다 - Thank you</li>
+            <li>미안해요 / 죄송합니다 - Sorry</li>
+            <li>네 - Yes</li>
+            <li>아니요 - No</li>
+        </ul>
+    </div>
+</body>
+</html>
